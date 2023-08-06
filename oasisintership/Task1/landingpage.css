@@ -1,0 +1,89 @@
+.navbar{
+	overflow:hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+.navbar a{
+	float:left;
+	font-size: 16px;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color:brown;
+}
+
+header h1{
+	color: white;
+}
+section img
+{
+
+	height:50%;
+	width:100%;
+}
+
+section p{
+	color:white;
+}
+.row{
+	display:flex;
+
+}
+.main h3{
+	color: white;
+}
+.column{
+	flex:33.33%;
+	padding:5px;
+}
+
+.foot h2{
+	color: white;
+}
+.mapouter{
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 5px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none;
+	width:600px;height:400px;
+	}
+
+.gmap_iframe {
+	width:600px;
+	height:400px;
+}
+body{
+
+	background-color: black;
+}
+.main{
+	padding:5px;
+	line-height: 1.5;
+}
+.mapouter
+{
+	padding-left: 410px;
+	padding-right: 410px;
+}
+.main h1{
+	color: white;
+}
+.main h4{
+	color: white;
+}
+
+body h1{
+	color:white;
+}
+
+

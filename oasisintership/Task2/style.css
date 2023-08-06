@@ -1,0 +1,104 @@
+*{
+    padding: 10px; 
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation{
+    background-color:#0c0c0c;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 20px;
+	text-decoration: none;
+}
+
+a{
+    color: white;
+    line-height: 2.5;
+}
+
+a:hover{
+    background-color: rgb(238, 15, 15);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(255, 214, 196);
+}
+#head{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-thickness: auto;  
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-thickness: auto;  
+}
+
+.text{
+    padding-left: 200px;
+    font-size: 30px; 
+}
+
+.skills{
+    padding: 10px;
+    line-height: normal;
+}
+.middle{
+    padding: 0px;
+}
+
+#combine{
+    background-color: rgb(255, 214, 196);
+    padding-left: 5px;
+}
+
+#combineimage{
+   
+    float:right;
+    margin-right: 30%;
+}
+
+#redhat{
+    height: 10px;;
+    float: right;
+}
+
+#skills ul{
+    padding:10px;
+}
+
+#hackerrank{
+    height:50px;
+}
+
+#Achievements{
+    background-color: rgb(255, 214, 196);
+}
+
+#Achievements ul{
+    padding:10px;
+}
+
+footer{
+    background-color: black;
+}
+
+#t{
+    color: white;
+}
