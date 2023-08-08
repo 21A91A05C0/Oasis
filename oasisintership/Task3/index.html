@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>TEMPERATURE CONVERTER</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+        <header><b><h1>TEMPERATURE CONVERTER</h1></b></header>
+    </head>
+    <body>
+        <main>
+            <div id="maindiv">
+                <div id="divv">
+                    
+                    <label>How to convert</label>
+                    <select id="type">
+                        <option value="celcius" id="type">Celsius</option>
+                        <option value="farenheit" id="type">Farenheit</option>
+                        <option value="kelvin" id="type">kelvin</option>
+                    </select><br><br>
+                    <label>Enter the value</label><br>
+                    <input id="value" type="number" placeholder="enter the value"/><br>
+                    <button onclick="convert()">Convert</button><br><br>
+                    <label>Converted to Celsius</label>
+                    <input id="cel" type="number" placeholder="Celsius"/><br>
+                    <label>Converted to Farenheit</label>
+                    <input  id="faren" type="number" placeholder="Fahrenheit"/><br>
+                    <label>Converted to Kelvin</label>
+                    <input id="kelv" type="number" placeholder="Kelvin"/><br><br>
+                    <button onclick="Reset()">ResetAll</button>
+                </div>
+            </div>
+
+        </main>
+        
+    </body>
+</html>
